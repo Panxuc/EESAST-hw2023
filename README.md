@@ -8,5 +8,6 @@
 4. [MultiThreading](04) [[GitHub Repository](https://github.com/Panxuc/EESAST-hw2023-MultiThreading)]
 5. [Advanced C++](05)
 6. [Protobuf & gRPC](06)
-7. [WPF & MAUI](07)
+7. [WPF & MAUI](07) [[GitHub Repository](https://github.com/Panxuc/EESAST-hw2023-MAUI-calculator)] [[GitHub Repository](https://github.com/Panxuc/EESAST-hw2023-MAUI-scheduler)]
+8. [HTML & CSS & Javascript](08)
 
