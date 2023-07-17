@@ -1,0 +1,28 @@
+syntax = "proto3";
+package calculator;
+
+enum Operation
+{
+  ADD = 0;
+  SUB = 1;
+  PRODUCT = 2;
+  DIVIDE = 3;
+}
+
+message Request
+{
+  int32 num1 = 1;
+  int32 num2 = 2;
+  Operation op = 3;
+}
+
+message Reply
+{
+  int32 result = 1;
+}
+
+service Calculate
+{
+  rpc Calculate (Request) returns (Reply) {}
+  rpc StreamCalculate (stream Request) returns (stream Reply) {}
+}
