@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>学生成绩管理系统</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+	<div class="add">
+		<fieldset>
+			<h1>学生成绩管理系统</h1>
+			<fieldset>
+				<legend>学生信息</legend>
+				<p>姓名：<input type="text" id="name" value=""></p>
+				<p>学号：<input type="text" id="id" value=""></p>
+			</fieldset>
+			<fieldset>
+				<legend>必修科目</legend>
+				<p>语文：<input type="number" id="chinese" value=""></p>
+				<p>数学：<input type="number" id="math" value=""></p>
+				<p>英语：<input type="number" id="english" value=""></p>
+			</fieldset>
+			<fieldset>
+				<legend>选修科目</legend>
+				<p>物理：<input type="number" id="physics" value=""></p>
+				<p>化学：<input type="number" id="chemistry" value=""></p>
+				<p>生物：<input type="number" id="biology" value=""></p>
+				<p>政治：<input type="number" id="politics" value=""></p>
+				<p>历史：<input type="number" id="history" value=""></p>
+				<p>地理：<input type="number" id="geography" value=""></p>
+			</fieldset>
+			<button id="button" style="display:block; margin:0 auto" onclick="add()">添加</button>
+		</fieldset>
+	</div>
+	<br>
+	<div class="list">
+		<table id="table" border="1">
+			<thead>
+				<tr>
+					<th>姓名</th>
+					<th>学号</th>
+					<th>语文</th>
+					<th>数学</th>
+					<th>英语</th>
+					<th>物理</th>
+					<th>化学</th>
+					<th>生物</th>
+					<th>政治</th>
+					<th>历史</th>
+					<th>地理</th>
+					<th>总分</th>
+					<th>平均分</th>
+					<th>操作</th>
+				</tr>
+			</thead>
+			<tbody id="tbody">
+			</tbody>
+		</table>
+	</div>
+	<br>
+	<div class="plot">
+		<canvas id="canvas" width="500" height="500"></canvas>
+	</div>
+	<script src="script.js" defer></script>
+</body>

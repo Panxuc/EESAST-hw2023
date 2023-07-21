@@ -1,0 +1,20 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+th,
+td {
+	text-align: center;
+}
+
+div,
+fieldset,
+table,
+canvas {
+	width: 75%;
+	margin-left: auto;
+	margin-right: auto;
+}

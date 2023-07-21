@@ -11,4 +11,6 @@
 7. [WPF & MAUI](07) [[GitHub Repository](https://github.com/Panxuc/EESAST-hw2023-MAUI-calculator)] [[GitHub Repository](https://github.com/Panxuc/EESAST-hw2023-MAUI-scheduler)]
 8. [HTML & CSS & Javascript](08)
 9. [Unity & WebGL](09)
+10. [NodeJS & Webpack & TypeScript](10)
+11. [React & GraphQL](11)
 
