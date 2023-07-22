@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>一面法国国旗（不是纯白的那个）</title>
+	<link href="style.css" rel="stylesheet" />
+</head>
+
+<body>
+	<h1>一面法国国旗（不是纯白的那个）</h1>
+	<hr><br>
+	<script id="vertex-shader-2d" type="notjs">
+		attribute vec4 a_position;
+		void main() {
+			gl_Position = a_position;
+		}
+	</script>
+	<script id="fragment-shader-2d" type="notjs">
+		precision mediump float;
+        uniform vec4 u_color;
+        void main() {
+            gl_FragColor = u_color;
+        }
+	</script>
+	<canvas id="canvas" width="600" height="400"> </canvas>
+	<script src="bundle.js"> </script>
+</body>
+
+</html>

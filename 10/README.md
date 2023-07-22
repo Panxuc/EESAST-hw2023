@@ -19,13 +19,19 @@ axios.get('https://www.eesast.com')
 
 提交控制台输出的截图即可，它应当是一个html文本。
 
+> ![1](.readme/1.png)
+
 ### 2. Webpack 起步
 
-参照官网教程：[起步 | webpack 中文文档 ](https://www.webpackjs.com/guides/getting-started/)完成练习。你也可以自己设计你的html,css,js文件来做出一
-
-个好看的小项目。
+参照官网教程：[起步 | webpack 中文文档 ](https://www.webpackjs.com/guides/getting-started/)完成练习。你也可以自己设计你的html,css,js文件来做出一个好看的小项目。
 
 提交html打开后的网页截图即可，（如果有自行设计的也可以提交一下代码让我欣赏一下 \^v\^）。
+
+> 对上一讲的法国国旗使用了`webpack`（
+>
+> ![2_0](.readme/2_0.png)
+>
+> ![2_1](.readme/2_1.png)
 
 ### 3. TypeScript 基础练习
 
@@ -45,6 +51,8 @@ export function getFullName(student: Student) {
 创建一个你自己的 ts 文件，并 import 上面提供的接口和函数，使用该接口创建一个变量，并在控制台输出该函数的调用结果。
 
 提交代码截图即可。
+
+> ![3](.readme/3.png)
 
 ### 提交
 
